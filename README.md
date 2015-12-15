@@ -1,4 +1,7 @@
 # Moteino-Wireless-Programming
+Version 1.4.1 (2015/12/15)
+Corrected problem in error trapping routine: didi not display the correct information.
+===============================================================
 Version 1.4 (2015/12/09)
 Added support for use of a TCP port to communicate with the Gateway. 
 This allows the gateway to be connected anywhere on the network using a Device Server (such as the Lantronix UDS-1000) 
