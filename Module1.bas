@@ -151,6 +151,6 @@ End Function
 
 Public Sub MyMsgBox(Message As String)
     If gbAutoMode = False Then
-        MsgBox "This application is already running...", vbCritical, "Error"
+        MsgBox Message, vbCritical, "Error"
     End If
 End Sub
